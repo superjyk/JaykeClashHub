@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jayke Clash Hub — List of Accounts</title>
+  <meta name="description" content="Browse all available Clash of Clans accounts — TH13 to TH18. Verified, legit, fast delivery."/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<canvas id="particles-canvas"></canvas>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-icon">⚔️</span>
+      Jayke Clash Hub
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="list.html" class="active">Accounts</a>
+      <a href="payment.html">Payment</a>
+      <a href="installment.html">Installments</a>
+      <a href="about.html">About</a>
+      <a href="#contact" class="nav-contact-btn">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <div class="pill">⚔️ Choose Your Account ⚔️ </div>
+  <h1>Available <span>Accounts</span></h1>
+  <p>All accounts are verified, legit, and ready to transfer. Complete screenshots provided before every purchase. Tap any card for full details.</p>
+
+  <div class="filter-bar">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="th12">TH12</button>
+    <button class="filter-btn" data-filter="th13">TH13</button>
+    <button class="filter-btn" data-filter="th14">TH14</button>
+    <button class="filter-btn" data-filter="th15">TH15</button>
+    <button class="filter-btn" data-filter="th16">TH16</button>
+    <button class="filter-btn" data-filter="th17">TH17</button>
+    <button class="filter-btn" data-filter="th18">TH18</button>
+  </div>
+</div>
+
+<!-- ACCOUNTS GRID (built by JS) -->
+<div class="accounts-grid" id="accountsGrid"></div>
+
+
+
+<div id="contact">
+  <div class="contact-section reveal">
+    <h2 class="contact-title">Ready to Buy? <span>Let's Talk!</span></h2>
+    <p class="contact-sub">Message us on Facebook or WhatsApp. We'll send screenshots, answer questions, and handle the transfer.</p>
+    <div class="contact-btns">
+      <a href="https://web.facebook.com/profile.php?id=61589532622051" target="_blank" rel="noopener" class="contact-card contact-card-fb">
+        <span class="contact-icon">📘</span>
+        <div class="contact-info">
+          <div class="contact-platform">Facebook</div>
+          <div class="contact-handle">Jayke Cabalquinto</div>
+        </div>
+      </a>
+      <a href="https://wa.me/639099724815" target="_blank" rel="noopener" class="contact-card contact-card-wa">
+        <span class="contact-icon">💬</span>
+        <div class="contact-info">
+          <div class="contact-platform">WhatsApp</div>
+          <div class="contact-handle">+63 909 972 4815</div>
+        </div>
+      </a>
+      <a href="https://www.instagram.com/canogey_jyk?igsh=MXQ1cnBzZXR4ZWRsZA==" target="_blank" rel="noopener" class="contact-card contact-card-ig">
+        <span class="contact-icon">📸</span>
+        <div class="contact-info">
+          <div class="contact-platform">Instagram</div>
+          <div class="contact-handle">@canogey_jyk</div>
+        </div>
+      </a>
+      <a href="https://t.me/superjyk" target="_blank" rel="noopener" class="contact-card contact-card-tg">
+        <span class="contact-icon">✈️</span>
+        <div class="contact-info">
+          <div class="contact-platform">Telegram</div>
+          <div class="contact-handle">@superjyk</div>
+        </div>
+      </a>
+      <a href="viber://chat?number=%2B639630723762" target="_blank" rel="noopener" class="contact-card contact-card-vb">
+        <span class="contact-icon">📳</span>
+        <div class="contact-info">
+          <div class="contact-platform">Viber</div>
+          <div class="contact-handle">+63 963 072 3762</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<hr class="fancy-divider"/>
+<footer>
+  <strong>JaykeClashHub</strong>
+  <span>© 2026 Jayke Clash Hub. All rights reserved.</span>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+  <div class="modal" id="modalBox">
+    <button class="modal-close" onclick="closeModalDirect()">✕</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<button class="back-top" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>

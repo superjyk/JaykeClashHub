@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jayke Clash Hub — Payment Method</title>
+  <meta name="description" content="Accepted payment methods at Jayke Clash Store — GCash, Maribank, Bank Transfer, PayPal, and Wise."/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<canvas id="particles-canvas"></canvas>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-icon">⚔️</span>
+      Jayke Clash Hub
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="list.html">Accounts</a>
+      <a href="payment.html" class="active">Payment</a>
+      <a href="installment.html">Installments</a>
+      <a href="about.html">About</a>
+      <a href="#contact" class="nav-contact-btn">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <div class="pill">💳 Payments</div>
+  <h1>Payment <span>Methods</span></h1>
+  <p>We accept multiple payment methods to make buying your account as convenient as possible — local and international options available.</p>
+</div>
+
+<!-- HOW TO PAY STEPS -->
+<div class="section-wrap">
+  <div class="section-head reveal">
+    <div class="pill">📋 Process</div>
+    <h2>How to <em>Pay</em></h2>
+    <p>Follow these simple steps to complete your purchase safely.</p>
+  </div>
+
+  <div class="payment-steps reveal">
+    <div class="step-item">
+      <div class="step-num">01</div>
+      <div class="step-title">Choose Account</div>
+      <div class="step-desc">Browse our listings, pick the account you want, and message us to confirm it's still available.</div>
+    </div>
+    <div class="step-item">
+      <div class="step-num">02</div>
+      <div class="step-title">Choose Payment</div>
+      <div class="step-desc">Pick any method below. We'll provide our exact payment details via chat.</div>
+    </div>
+    <div class="step-item">
+      <div class="step-num">03</div>
+      <div class="step-title">Send Receipt</div>
+      <div class="step-desc">After paying, screenshot your receipt and send it to us via Facebook or WhatsApp.</div>
+    </div>
+    <div class="step-item">
+      <div class="step-num">04</div>
+      <div class="step-title">Get Account</div>
+      <div class="step-desc">We verify your payment and hand over the account within minutes. You're good to go!</div>
+    </div>
+  </div>
+</div>
+
+<hr class="fancy-divider"/>
+
+<!-- PAYMENT METHODS -->
+<div class="section-wrap">
+  <div class="section-head reveal">
+    <div class="pill">💰 Accepted Methods</div>
+    <h2>Ways to <em>Pay</em></h2>
+    <p>All methods are verified and secure. We confirm receipt before any transfer happens.</p>
+  </div>
+
+  <div class="payment-methods-grid">
+
+    <div class="pay-card reveal reveal-delay-1">
+      <div class="pay-card-icon">🏦</div>
+      <div class="pay-card-title">GCash</div>
+      <div class="pay-card-desc">Send payment directly to our GCash number. Fastest and most common for local buyers. Instant confirmation.</div>
+      <div class="pay-card-detail" onclick="copyToClipboard('09099724815', 'GCash number')" style="cursor:pointer;" title="Click to copy">
+        📋 0909 972 4815
+      </div>
+    </div>
+
+    <div class="pay-card reveal reveal-delay-2">
+      <div class="pay-card-icon">💙</div>
+      <div class="pay-card-title">Maribank (Maya)</div>
+      <div class="pay-card-desc">Pay via Maya wallet for quick and easy transfers with instant receipt and confirmation.</div>
+      <div class="pay-card-detail" onclick="copyToClipboard('09099724815', 'Maribank number')" style="cursor:pointer;" title="Ask via chat">
+        💬 Ask number via chat
+      </div>
+    </div>
+
+    <div class="pay-card reveal reveal-delay-3">
+      <div class="pay-card-icon">🏧</div>
+      <div class="pay-card-title">Bank Transfer</div>
+      <div class="pay-card-desc">BDO, BPI, and UnionBank accepted. Send us the transaction screenshot after payment confirmation.</div>
+      <div class="pay-card-detail">💬 Ask account details via chat</div>
+    </div>
+
+    <div class="pay-card reveal reveal-delay-1">
+      <div class="pay-card-icon">🌍</div>
+      <div class="pay-card-title">PayPal</div>
+      <div class="pay-card-desc">International buyers welcome. Pay in USD via PayPal Friends & Family only. No fees on our end.</div>
+      <div class="pay-card-detail">💬 Ask PayPal link via chat</div>
+    </div>
+
+    <div class="pay-card reveal reveal-delay-2">
+      <div class="pay-card-icon">💸</div>
+      <div class="pay-card-title">Wise</div>
+      <div class="pay-card-desc">Global transfers with low fees. Ideal for buyers outside the Philippines sending USD or other currencies.</div>
+      <div class="pay-card-detail">💬 Ask Wise details via chat</div>
+    </div>
+
+    <div class="pay-card reveal reveal-delay-3" style="border-color:var(--border);background:linear-gradient(135deg,var(--bg2),rgba(245,197,24,0.04));">
+      <div class="pay-card-icon">📅</div>
+      <div class="pay-card-title">Installment Plan</div>
+      <div class="pay-card-desc">Can't pay all at once? We offer flexible split payment plans — no interest, no hidden charges.</div>
+      <a href="installment.html" class="btn-primary" style="padding:10px 20px;font-size:13px;display:inline-flex;margin-top:4px;">View Plans →</a>
+    </div>
+
+  </div>
+</div>
+
+<hr class="fancy-divider"/>
+
+<!-- FAQ -->
+<div class="section-wrap">
+  <div class="section-head reveal">
+    <div class="pill">❓ FAQ</div>
+    <h2>Payment <em>Questions</em></h2>
+  </div>
+
+  <div style="max-width:720px;margin:0 auto;" class="reveal">
+    <div class="highlight-item" style="margin-bottom:14px;">
+      <h4>Is it safe to pay?</h4>
+      <p>Yes. We've completed 1000+ successful transactions. We always send proof of ownership before you pay. If ever unsatisfied, we'll work it out with you.</p>
+    </div>
+    <div class="highlight-item" style="margin-bottom:14px;">
+      <h4>Do I get a receipt?</h4>
+      <p>Yes. Your payment app generates one automatically. Just screenshot it and send to us for confirmation.</p>
+    </div>
+    <div class="highlight-item" style="margin-bottom:14px;">
+      <h4>Can I negotiate the price?</h4>
+      <p>Always! Message us — prices on listings are starting points. We're flexible and want to find the right deal for you.</p>
+    </div>
+    <div class="highlight-item">
+      <h4>What if something goes wrong?</h4>
+      <p>Message us immediately. We're always reachable and will resolve any issue quickly. Our reputation depends on your satisfaction.</p>
+    </div>
+  </div>
+</div>
+
+<!-- CTA -->
+<div class="cta-section reveal">
+  <h2>Ready to <span>buy?</span></h2>
+  <p>Browse accounts and pick your favorite. We'll walk you through payment step by step.</p>
+  <div class="btn-group">
+    <a href="list.html" class="btn-primary">🗡️ Browse Accounts</a>
+    <a href="installment.html" class="btn-gold-outline">📅 Installment Plans</a>
+  </div>
+</div>
+
+<div id="contact">
+  <div class="contact-section reveal">
+    <h2 class="contact-title">Ready to Buy? <span>Let's Talk!</span></h2>
+    <p class="contact-sub">Message us on Facebook or WhatsApp. We'll send screenshots, answer questions, and handle the transfer.</p>
+    <div class="contact-btns">
+      <a href="https://web.facebook.com/profile.php?id=61589532622051" target="_blank" rel="noopener" class="contact-card contact-card-fb">
+        <span class="contact-icon">📘</span>
+        <div class="contact-info">
+          <div class="contact-platform">Facebook</div>
+          <div class="contact-handle">Jayke Cabalquinto</div>
+        </div>
+      </a>
+      <a href="https://wa.me/639099724815" target="_blank" rel="noopener" class="contact-card contact-card-wa">
+        <span class="contact-icon">💬</span>
+        <div class="contact-info">
+          <div class="contact-platform">WhatsApp</div>
+          <div class="contact-handle">+63 909 972 4815</div>
+        </div>
+      </a>
+      <a href="https://www.instagram.com/canogey_jyk?igsh=MXQ1cnBzZXR4ZWRsZA==" target="_blank" rel="noopener" class="contact-card contact-card-ig">
+        <span class="contact-icon">📸</span>
+        <div class="contact-info">
+          <div class="contact-platform">Instagram</div>
+          <div class="contact-handle">@canogey_jyk</div>
+        </div>
+      </a>
+      <a href="https://t.me/superjyk" target="_blank" rel="noopener" class="contact-card contact-card-tg">
+        <span class="contact-icon">✈️</span>
+        <div class="contact-info">
+          <div class="contact-platform">Telegram</div>
+          <div class="contact-handle">@superjyk</div>
+        </div>
+      </a>
+      <a href="viber://chat?number=%2B639630723762" target="_blank" rel="noopener" class="contact-card contact-card-vb">
+        <span class="contact-icon">📳</span>
+        <div class="contact-info">
+          <div class="contact-platform">Viber</div>
+          <div class="contact-handle">+63 963 072 3762</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<hr class="fancy-divider"/>
+<footer>
+  <strong>JaykeClashHub</strong>
+  <span>© 2026 Jayke Clash Hub. All rights reserved.</span>
+</footer>
+
+<button class="back-top" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
